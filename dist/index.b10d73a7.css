@@ -89,6 +89,20 @@ h2 {
   font-size: 40px;
 }
 
+.reservation {
+  text-align: right;
+  padding: 20px;
+  font-family: Bebas Neue, sans-serif;
+}
+
+.reservation-container {
+  color: red;
+  flex-direction: row;
+  justify-content: end;
+  align-items: flex-end;
+  display: flex;
+}
+
 .img-container {
   flex-direction: column;
   display: flex;
@@ -123,8 +137,63 @@ h2 {
   font-size: 40px;
 }
 
+.detail-title-2 {
+  font-size: 60px;
+}
+
+.detail-text-2 {
+  font-size: 48px;
+}
+
+.detail-title-3 {
+  font-size: 60px;
+}
+
+.detail-text-3 {
+  font-size: 48px;
+}
+
+.detail-title-4 {
+  font-size: 60px;
+}
+
+.detail-text-4 {
+  font-size: 48px;
+}
+
+.places {
+  color: red;
+  font-size: 48px;
+}
+
 .footer {
   font-size: 39px;
+}
+
+.copyright {
+  font-size: 25px;
+}
+
+.defiling-container {
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+  overflow: hidden;
+}
+
+.defiling-text {
+  white-space: nowrap;
+  animation: ScrollTxt 5s linear infinite;
+}
+
+@keyframes ScrollTxt {
+  0% {
+    transform: translate(0);
+  }
+
+  100% {
+    transform: translate(-100%);
+  }
 }
 
 .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
