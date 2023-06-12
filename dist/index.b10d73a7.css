@@ -54,6 +54,49 @@ img, video {
   display: flex;
 }
 
+.description {
+  margin-bottom: 50px;
+  margin-left: 700px;
+  font-size: 55px;
+}
+
+.description-2 {
+  margin-bottom: 20px;
+  margin-left: 700px;
+  font-size: 55px;
+}
+
+.description-3 {
+  margin-left: 700px;
+  font-size: 55px;
+}
+
+.description-4 {
+  margin-bottom: 50px;
+  margin-left: 700px;
+  font-size: 55px;
+}
+
+.p {
+  text-align: left;
+  margin: 50px;
+  padding: 50px 560px 50px 50px;
+  font-size: 40px;
+}
+
+.img-container {
+  flex-direction: column;
+  display: flex;
+}
+
+.main-container {
+  flex-direction: row;
+  margin-left: 100px;
+  padding-bottom: 50px;
+  font-size: 48px;
+  display: flex;
+}
+
 .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
