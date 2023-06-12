@@ -55,6 +55,7 @@ img, video {
 }
 
 .description {
+  margin-top: 50px;
   margin-bottom: 50px;
   margin-left: 700px;
   font-size: 55px;
@@ -95,6 +96,10 @@ img, video {
   padding-bottom: 50px;
   font-size: 48px;
   display: flex;
+}
+
+.detail-title {
+  color: red;
 }
 
 .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
