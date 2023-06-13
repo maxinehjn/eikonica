@@ -126,44 +126,61 @@ h2 {
 
 .detail-title {
   color: red;
+  padding-left: 50px;
   font-size: 60px;
 }
 
 .detail-text {
+  padding-left: 50px;
   font-size: 48px;
 }
 
 .detail {
+  padding-left: 50px;
   font-size: 40px;
 }
 
 .detail-title-2 {
+  padding-left: 50px;
   font-size: 60px;
 }
 
 .detail-text-2 {
+  padding-left: 50px;
   font-size: 48px;
 }
 
 .detail-title-3 {
+  padding-left: 50px;
   font-size: 60px;
 }
 
 .detail-text-3 {
+  padding-left: 50px;
   font-size: 48px;
 }
 
 .detail-title-4 {
+  padding-left: 50px;
   font-size: 60px;
 }
 
 .detail-text-4 {
+  padding-left: 50px;
   font-size: 48px;
 }
 
 .places {
   color: red;
+  padding-left: 50px;
   font-size: 48px;
+}
+
+.place {
+  text-align: right;
+  margin-left: 500px;
+  padding: 50px;
+  font-size: 60px;
 }
 
 .footer {
@@ -194,6 +211,22 @@ h2 {
   100% {
     transform: translate(-100%);
   }
+}
+
+.concert-container, .workshop-container, .fence-container {
+  text-align: left;
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+}
+
+.reservation {
+  color: red;
+  text-align: center;
+  flex-direction: row;
+  justify-content: end;
+  align-items: flex-end;
+  display: flex;
 }
 
 .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
