@@ -43,6 +43,7 @@ img, video {
 
 .language {
   margin-left: 10px;
+  font-size: 25px;
 }
 
 .tickets {
@@ -56,6 +57,10 @@ img, video {
 
 h2 {
   font-size: 90px;
+}
+
+.program {
+  padding-left: 50px;
 }
 
 .description {
@@ -80,6 +85,15 @@ h2 {
   margin-bottom: 50px;
   margin-left: 700px;
   font-size: 55px;
+}
+
+.other-typo {
+  color: red;
+  font-size: 100px;
+}
+
+.other-typo a:hover {
+  color: #0004ff;
 }
 
 .p {
@@ -110,10 +124,30 @@ h2 {
 
 .main-container {
   flex-direction: row;
-  margin-left: 100px;
+  margin-left: 50px;
   padding-bottom: 50px;
   font-size: 48px;
   display: flex;
+}
+
+.txt-container {
+  flex-direction: column;
+  display: flex;
+}
+
+.button {
+  border: 2px solid #000;
+  margin-left: 50px;
+  padding: 10px 40px 10px 10px;
+}
+
+.img-concert, .img-workshop, .img-fence {
+  height: 100%;
+  max-width: 100vw;
+}
+
+.program-2 {
+  padding-left: 50px;
 }
 
 .info-container, .info-container-2 {
@@ -172,8 +206,17 @@ h2 {
 
 .places {
   color: red;
+  margin-bottom: 30px;
   padding-left: 50px;
   font-size: 48px;
+}
+
+.detail-button-2 {
+  border: 2px solid #000;
+  margin-left: 50px;
+  margin-right: 1350px;
+  padding: 10px;
+  font-size: 45px;
 }
 
 .place {
@@ -183,34 +226,19 @@ h2 {
   font-size: 60px;
 }
 
+.contact {
+  padding-left: 50px;
+}
+
 .footer {
+  padding-left: 50px;
   font-size: 39px;
 }
 
 .copyright {
+  margin-bottom: 80px;
+  padding-left: 50px;
   font-size: 25px;
-}
-
-.defiling-container {
-  width: 100%;
-  flex-direction: row;
-  display: flex;
-  overflow: hidden;
-}
-
-.defiling-text {
-  white-space: nowrap;
-  animation: ScrollTxt 5s linear infinite;
-}
-
-@keyframes ScrollTxt {
-  0% {
-    transform: translate(0);
-  }
-
-  100% {
-    transform: translate(-100%);
-  }
 }
 
 .concert-container, .workshop-container, .fence-container {
