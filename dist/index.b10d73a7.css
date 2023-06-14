@@ -43,6 +43,7 @@ img, video {
 
 .language {
   margin-left: 10px;
+  font-family: matrixsansvideo;
   font-size: 25px;
 }
 
@@ -55,11 +56,17 @@ img, video {
   display: flex;
 }
 
+.tickets a:hover {
+  color: #ffe600f5;
+}
+
 h2 {
+  font-family: matrixsansregular;
   font-size: 90px;
 }
 
-.program {
+.program, .program-2 {
+  margin-bottom: 50px;
   padding-left: 50px;
 }
 
@@ -67,28 +74,33 @@ h2 {
   margin-top: 50px;
   margin-bottom: 50px;
   margin-left: 700px;
+  font-family: matrixsansvideo;
   font-size: 55px;
 }
 
 .description-2 {
   margin-bottom: 20px;
   margin-left: 700px;
-  font-size: 55px;
+  font-family: matrixsansregular;
+  font-size: 70px;
 }
 
 .description-3 {
   margin-left: 700px;
+  font-family: matrixsansvideo;
   font-size: 55px;
 }
 
 .description-4 {
   margin-bottom: 50px;
   margin-left: 700px;
+  font-family: matrixsansvideo;
   font-size: 55px;
 }
 
 .other-typo {
   color: red;
+  font-family: matrixsansregular;
   font-size: 100px;
 }
 
@@ -104,9 +116,12 @@ h2 {
 }
 
 .reservation {
-  text-align: right;
-  padding: 20px;
+  border: 2px solid red;
+  margin-left: 1240px;
+  margin-right: 50px;
+  padding: 10px;
   font-family: Bebas Neue, sans-serif;
+  font-size: 30px;
 }
 
 .reservation-container {
@@ -255,6 +270,16 @@ h2 {
   justify-content: end;
   align-items: flex-end;
   display: flex;
+}
+
+@font-face {
+  font-family: matrixsansregular;
+  src: url("MatrixSans-Regular.4d78270b.woff2");
+}
+
+@font-face {
+  font-family: matrixsansvideo;
+  src: url("MatrixSans-Video.1a9bdd1d.woff2");
 }
 
 .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {

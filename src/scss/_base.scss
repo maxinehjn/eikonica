@@ -61,6 +61,7 @@ video {
 .language {
   margin-left: 10px;
   font-size: 25px;
+  font-family: "matrixsansvideo";
 }
 
 .tickets {
@@ -71,14 +72,24 @@ video {
   align-content: flex-end;
   font-size: 48px;
   margin-right: 120px;
+  a:hover {
+    color: rgba(255, 230, 0, 0.961);
+  }
 }
 
 h2 {
   font-size: 90px;
+  font-family: "matrixsansregular";
 }
 
 .program {
   padding-left: 50px;
+  margin-bottom: 50px;
+}
+
+.program-2 {
+  padding-left: 50px;
+  margin-bottom: 50px;
 }
 
 .description {
@@ -87,19 +98,22 @@ h2 {
   margin-left: 700px;
   margin-bottom: 50px;
   margin-top: 50px;
+  font-family: "matrixsansvideo";
 }
 
 .description-2 {
-  font-size: 55px;
+  font-size: 70px;
   margin-left: 70px;
   margin-left: 700px;
   margin-bottom: 20px;
+  font-family: "matrixsansregular";
 }
 
 .description-3 {
   font-size: 55px;
   margin-left: 70px;
   margin-left: 700px;
+  font-family: "matrixsansvideo";
 }
 
 .description-4 {
@@ -107,6 +121,7 @@ h2 {
   margin-left: 70px;
   margin-left: 700px;
   margin-bottom: 50px;
+  font-family: "matrixsansvideo";
 }
 
 .other-typo {
@@ -115,6 +130,7 @@ h2 {
   a:hover {
     color: rgb(0, 4, 255);
   }
+  font-family: "matrixsansregular";
 }
 
 .p {
@@ -127,9 +143,12 @@ h2 {
 }
 
 .reservation {
-  text-align: right;
-  padding: 20px;
   font-family: "Bebas Neue", sans-serif;
+  font-size: 30px;
+  padding: 10px;
+  margin-left: 1240px;
+  margin-right: 50px;
+  border: solid 2px rgb(255, 0, 0);
 }
 
 .reservation-container {
