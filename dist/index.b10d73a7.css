@@ -60,6 +60,10 @@ img, video {
   color: #ffe600f5;
 }
 
+.tickets a {
+  text-decoration: none;
+}
+
 h2 {
   font-family: matrixsansregular;
   font-size: 90px;
@@ -168,6 +172,7 @@ h2 {
   border: 2px solid #000;
   margin-left: 50px;
   padding: 10px 40px 10px 10px;
+  text-decoration: none;
 }
 
 .img-concert {
@@ -316,6 +321,10 @@ h2 {
   flex-direction: column;
   margin-left: 20px;
   display: flex;
+}
+
+video {
+  border: 2px solid #000;
 }
 
 @font-face {

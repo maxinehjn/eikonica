@@ -76,6 +76,9 @@ video {
     color: rgba(255, 230, 0, 0.961);
   }
 }
+.tickets a {
+  text-decoration: none;
+}
 
 h2 {
   font-size: 90px;
@@ -191,6 +194,7 @@ h2 {
   padding-right: 40px;
   border: solid 2px black;
   margin-left: 50px;
+  text-decoration: none;
 }
 
 .img-concert {
@@ -348,4 +352,8 @@ h2 {
   flex-direction: column;
   margin-left: 20px;
   width: 345px;
+}
+
+video {
+  border: solid 2px rgb(0, 0, 0);
 }
